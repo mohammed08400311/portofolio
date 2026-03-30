@@ -1,0 +1,12 @@
+/* Additional custom styles if needed */
+#backToTop {
+  transition: opacity 0.3s, visibility 0.3s;
+}
+#backToTop.show {
+  opacity: 1;
+  visibility: visible;
+}
+/* smooth hover */
+.nav-link.active {
+  color: #4f46e5;
+}

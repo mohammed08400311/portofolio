@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="ar">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>وثيقة المشروع — Mohammed Ibrahim Portfolio</title>
+  <style>
+    @page { size: A4; margin: 18mm; }
+    body { font-family: Arial, Helvetica, sans-serif; color:#111; line-height:1.35; }
+    .container{max-width:800px;margin:0 auto;padding:6mm;}
+    header{display:flex;justify-content:space-between;align-items:center}
+    h1{font-size:20px;margin:0}
+    h2{font-size:14px;margin:10px 0}
+    p{font-size:12px;margin:6px 0}
+    .section{margin-top:10px}
+    .tags{display:flex;flex-wrap:wrap;gap:6px}
+    .tag{background:#eef2ff;color:#3730a3;padding:6px 8px;border-radius:6px;font-size:11px}
+    footer{margin-top:18px;font-size:11px;color:#444}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div>
+        <h1>Mohammed Ibrahim — Portfolio (ملف تعريفي)</h1>
+        <p>صفحة شخصية ثابتة لعرض المهارات والمشاريع وطرق التواصل.</p>
+      </div>
+      <div style="text-align:right;font-size:11px;color:#666">2026 · Front‑End</div>
+    </header>
+
+    <section class="section">
+      <h2>الملخّص</h2>
+      <p>موقع بسيط ومنظّم يُظهر مقدّم الموقع، مهاراته (HTML, CSS, JS, Tailwind)، وعرض لمشاريعه مع روابط معاينة مباشرة، إضافة إلى نموذج اتصال مع تحقق جهة العميل وميزة وضع الوضع الداكن.</p>
+    </section>
+
+    <section class="section">
+      <h2>الميزات التقنية</h2>
+      <div class="tags">
+        <span class="tag">HTML5</span>
+        <span class="tag">CSS3</span>
+        <span class="tag">Tailwind</span>
+        <span class="tag">JavaScript</span>
+        <span class="tag">Dark Mode (localStorage)</span>
+        <span class="tag">Responsive</span>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>هيكل المشروع (ملفّات مهمة)</h2>
+      <p>- index.html: الصفحة الرئيسية
+        - about.html: نبذة ومهارات
+        - projects.html: شبكة مشاريع مع روابط Live Demo
+        - contact.html: نموذج اتصال مع تحقق
+        - script.js: منطق الواجهة (Dark Mode، قائمة الموبايل، التحقق)
+        - style.css: أنماط إضافية
+      </p>
+    </section>
+
+    <section class="section">
+      <h2>كيفية التشغيل السريع</h2>
+      <p>شغّل سيرفر ملفات ثابتة في مجلد المشروع ثم افتح المتصفح على العنوان المحلي (مثال):</p>
+      <pre style="background:#f7f7f9;padding:8px;border-radius:6px">python3 -m http.server 8000
+# ثم افتح http://localhost:8000</pre>
+    </section>
+
+    <section class="section">
+      <h2>اقتراحات للتحسين</h2>
+      <ul>
+        <li>ربط نموذج الاتصال بخدمة backend أو Formspree لإرسال رسائل فعلية.</li>
+        <li>تحسين الأداء بضغط الصور واستبدال CDN إن لزم.</li>
+        <li>إضافة اختبار الوصولية (a11y) وتحسين علامات ARIA.</li>
+      </ul>
+    </section>
+
+    <footer>
+      <div>للاتصال: m3862361@gmail.com · GitHub: https://github.com/mohammed08400311</div>
+    </footer>
+  </div>
+</body>
+</html>
